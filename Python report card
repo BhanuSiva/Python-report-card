@@ -1,0 +1,16 @@
+math=int(input("enter maths marks"))
+phy=int(input("enter physics marks"))
+eng=int(input("enter English marks"))
+per=((math+phy+eng)/300)*100
+if(per>=90):
+  print("A grade")
+elif(per>=80):
+  print("B grade")
+elif(per>=70):
+  print("C grade")
+elif(per>=60):
+  print("D grade")
+elif(per>=50):
+  print("E grade")
+else:
+  print("fail")
